@@ -14,5 +14,5 @@ sha256sums=('SKIP')
 package() {
     cd "$pkgname"
     install -d "${pkgdir}/etc/skel/.config/albert"
-    install -Dm 644 ".bashrc" "${pkgdir}/etc/skel/.config/albert/albert.conf"
+    install -Dm 644 "albert.conf" "${pkgdir}/etc/skel/.config/albert/albert.conf"
 }
